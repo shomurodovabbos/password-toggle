@@ -10,6 +10,8 @@ toggleBtn.addEventListener("click", () => {
     } else {
         passwordInput.type = "password";
     }
+    eyeIcon.classList.toggle("hidden");
+    eyeOffIcon.classList.toggle("hidden");
 });
 
 form.addEventListener("submit", (e) => {
